@@ -1227,6 +1227,9 @@
       <div class="info-group"><label>Current Role</label>
         <select id="emp-role" onchange="syncEmployeeFields('role',this.value);autoFillDept(this.value)" style="width:100%;padding:8px 12px;border:1px solid var(--border-mid);border-radius:4px;font-size:13px;color:var(--text);font-family:inherit;background:var(--surface);">
           <option value="">— Select role —</option>
+          <optgroup label="── Administration Office ──">
+            <option value="Executive Assistant">Executive Assistant</option>
+          </optgroup>
           <optgroup label="── Product Management ──">
             <option value="Application Engineer">Application Engineer</option>
             <option value="Product Specialist">Product Specialist</option>
